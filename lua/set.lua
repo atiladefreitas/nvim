@@ -8,10 +8,10 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true -- convert tabs to spaces
-vim.wo.wrap = true -- do not wrap lines
+vim.wo.wrap = true -- wrap lines
+vim.opt.formatoptions:remove "t" -- no auto-intent of line breaks, keep line wrap enabled
 vim.opt.autoindent = true -- auto indentation
 vim.opt.list = true -- show tab characters and trailing whitespace
-vim.opt.formatoptions:remove "t" -- no auto-intent of line breaks, keep line wrap enabled
 vim.opt.listchars = "tab:»\\ ,extends:›,precedes:‹,nbsp:·,trail:·" -- show tab characters and trailing whitespace
 
 vim.opt.ignorecase = true -- ignore case when searching

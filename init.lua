@@ -23,5 +23,5 @@ require "remap"
 -- Load Alpha dashboard on startup
 -- vim.cmd [[autocmd VimEnter * Alpha]]
 vim.cmd [[
-  highlight LineNr guifg=#ffffff guibg=#3B4261
+  highlight LineNr guifg=#ffffff guibg=#363A4F
 ]]
