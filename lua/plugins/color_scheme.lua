@@ -6,14 +6,14 @@ return {
       background_colour = "#000000",
     }
     require("catppuccin").setup {
-      flavour = "macchiato", -- latte, frappe, macchiato, mocha
+      flavour = "mocha", -- latte, frappe, macchiato, mocha
       background = { -- :h background
         light = "latte",
         dark = "mocha",
       },
       transparent_background = true, -- disables setting the background color.
       show_end_of_buffer = true, -- shows the '~' characters after the end of buffers
-      term_colors = false, -- sets terminal colors (e.g. `g:terminal_color_0`)
+      term_colors = true, -- sets terminal colors (e.g. `g:terminal_color_0`)
       dim_inactive = {
         enabled = false, -- dims the background color of inactive window
         shade = "dark",

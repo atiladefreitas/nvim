@@ -14,6 +14,9 @@ vim.opt.autoindent = true -- auto indentation
 vim.opt.list = true -- show tab characters and trailing whitespace
 vim.opt.listchars = "tab:»\\ ,extends:›,precedes:‹,nbsp:·,trail:·" -- show tab characters and trailing whitespace
 
+-- vim.api.nvim_set_hl(0, 'Cursor', { reverse = true })
+-- vim.api.nvim_set_hl(0, "LineNr", { fg = "red", bg = "black" }
+
 vim.opt.ignorecase = true -- ignore case when searching
 vim.opt.smartcase = true -- unless capital letter in search
 

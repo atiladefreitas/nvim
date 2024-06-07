@@ -20,8 +20,14 @@ require "polish"
 require "set"
 require "remap"
 
+-- Highlight configurations
+vim.cmd [[
+  highlight LineNr guifg=#ffffff guibg=none
+  highlight CursorLineNr guifg=#89B4FA gui=bold term=bold
+]]
+
+-- Enable cursorline and cursorcolumn
+vim.opt.cursorline = true
+
 -- Load Alpha dashboard on startup
 -- vim.cmd [[autocmd VimEnter * Alpha]]
-vim.cmd [[
-  highlight LineNr guifg=#ffffff guibg=#363A4F
-]]
