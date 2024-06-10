@@ -22,8 +22,8 @@ require "remap"
 
 -- Highlight configurations
 vim.cmd [[
-  highlight LineNr guifg=#ffffff guibg=none
-  highlight CursorLineNr guifg=#89B4FA gui=bold term=bold
+  highlight LineNr guifg=#eeeeee guibg=none
+  highlight CursorLineNr guifg=#89B4FA gui=bold guibg=#313244 term=bold
 ]]
 
 -- Enable cursorline and cursorcolumn

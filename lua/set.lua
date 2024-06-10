@@ -2,7 +2,7 @@ vim.opt.conceallevel = 1
 
 vim.opt.encoding = "utf-8" -- set encoding
 vim.opt.nu = true -- enable line numbers
-vim.opt.relativenumber = false -- relative line numbers
+vim.opt.relativenumber = true -- relative line numbers
 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
