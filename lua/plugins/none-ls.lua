@@ -31,6 +31,9 @@ return {
         -- null_ls.builtins.diagnostics.eslint_d,  -- Linter ESLint
         null_ls.builtins.formatting.stylua, -- Formatador Lua
         null_ls.builtins.formatting.prettier, -- Formatador JS/HTML/CSS
+        null_ls.builtins.formatting.gofumpt,
+        null_ls.builtins.formatting.goimports_reviser,
+        null_ls.builtins.formatting.golines,
       },
     }
 
